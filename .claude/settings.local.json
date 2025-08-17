@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir)",
+      "Bash(dir /s)",
+      "Bash(node:*)",
+      "Bash(gh:*)",
+      "Bash(git --version)",
+      "Bash(where gh)",
+      "Bash(winget install:*)",
+      "Bash(refreshenv)",
+      "Bash(\"C:\\Program Files\\GitHub CLI\\gh.exe\" --version)",
+      "Bash(\"C:\\Program Files\\GitHub CLI\\gh.exe\" auth login --web)",
+      "Bash(\"C:\\Program Files\\GitHub CLI\\gh.exe\" repo create mobile-repair-website --public --description \"Professional mobile device repair website with Liverpool FC-inspired design and automated screenshot comparison tools\" --add-readme=false)",
+      "Bash(git add:*)",
+      "Bash(rm:*)",
+      "Bash(git init:*)",
+      "Bash(git remote add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
